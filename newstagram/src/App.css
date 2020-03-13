@@ -55,13 +55,13 @@ a {
 }
 
 .header {
-  padding:10px;
+  padding:10px 8px 10px 8px;
 }
 
 .username {
   font-size:13px;
   font-weight: bold;
-  margin-bottom:0;
+  margin:0;
 }
 
 .sourceName {
@@ -69,7 +69,32 @@ a {
   font-size:11px;
 }
 
+.profilePic {
+  width:30px;
+  height:30px;
+  border-radius: 50%;
+  float:left;
+  object-fit: cover;
+}
+
+.nameBox {
+  display: inline-block;
+  padding-left: 10px;
+}
+
 .description {
-  padding:10px;
+  padding:0px 8px 10px 8px;
   font-size: 13px;
+}
+
+.footer {
+    position: sticky;
+    bottom: 0;
+    padding: 0px 20px;
+    background: white;
+}
+
+.footer p {
+    font-size:11px;
+    opacity: 0.5;
 }
